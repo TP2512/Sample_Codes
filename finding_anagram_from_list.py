@@ -19,3 +19,4 @@ def checklist(clist):
 
 List1 = ["pool", "hey", "why", "polo", "pol", "lopo", "apolo", "hye"]
 print(checklist(List1))
+#result:  ['pool', 'hey', 'polo', 'lopo', 'hye']
