@@ -14,7 +14,7 @@ if password:
     tn.write(password.encode('ascii') + b"\n")
 
 
-tn.write(b"enable\n")  #considering switch already configured( IP and username and password for the user and enable mode
+tn.write(b"enable\n")  #considering switch already configured(IP,username and password for the user and enable mode)
 tn.write(b"passwd\n")
 tn.write(b"conf t\n")
 tn.write(b"host S1\n")
